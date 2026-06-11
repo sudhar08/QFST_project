@@ -1,0 +1,25 @@
+"Opportunity Name","ID","Opportunity Amount","Currency","Expected Close Date","Sales Stage","Probability (%)","Next Step","Type","Account Name","Description","Amount","Lead Source","campaign_id","Assigned to","Assigned User","Date Created","Date Modified","Created By","Modified By","Deleted","Geocode Status","Address","Longitude","Latitude"
+"24/7 Couriers - 500 units","ac3d5696-f64e-657f-d593-679ba584bdbd","$5,000.00","'-99","06/29/2025","Proposal/Price Quote","65","","New Business","24/7 Couriers","","$5,000.00","Cold Call","","sally","seed_sally_id","05/25/2022 15:00","01/30/2025 16:13","1","1","0","","","",""
+"24/7 Couriers - 7500 units","aa714e3a-49f9-517e-938b-679ba5cdf3af","$75,000.00","'-99","10/12/2024","Closed Won","100","","","24/7 Couriers","","$75,000.00","Conference","","sally","seed_sally_id","07/02/2024 13:45","01/30/2025 16:13","1","1","0","","","",""
+"360 Vacations - 1000 units","ce88ae3b-c090-1d50-ad20-679ba57c03fe","$10,000.00","'-99","07/09/2025","Proposal/Price Quote","65","","","360 Vacations","","$10,000.00","Web Site","","sally","seed_sally_id","10/10/2022 07:45","01/30/2025 16:13","1","1","0","","","",""
+"360 Vacations - 5000 units","cd07b938-9798-336f-3836-679ba5791a0b","$50,000.00","'-99","01/02/2025","Closed Lost","0","","","360 Vacations","","$50,000.00","Employee","","sally","seed_sally_id","04/25/2024 15:45","01/30/2025 16:13","1","1","0","","","",""
+"5D Investments - 2500 units","8cb00fac-5614-70ca-1108-679ba55e7066","$25,000.00","'-99","03/20/2023","Closed Won","100","","New Business","5D Investments","","$25,000.00","","","chris","seed_chris_id","07/29/2023 11:00","01/30/2025 16:13","1","1","0","","","",""
+
+
+"This is a sample import file which provides an example of the expected contents of a file that is ready for import."
+"The file is a comma-delimited .csv file, using double-quotes as the field qualifier."
+
+"The header row is the top-most row in the file and contains the field labels as you would see them in the application."
+"These labels are used for mapping the data in the file to the fields in the application."
+
+"Notes: The database names could also be used in the header row. This is useful when you are using phpMyAdmin or another database tool to provide an exported list of data to import."
+"The column order is not critical as the import process matches the data to the appropriate fields based on the header row."
+
+
+"To use this file as a template, do the following:"
+"1. Remove the sample rows of data"
+"2. Remove the help text that you are reading right now"
+"3. Input your own data into the appropriate rows and columns"
+"4. Save the file to a known location on your system"
+"5. Click on the Import option from the Actions menu in the application and choose the file to upload"
+   
