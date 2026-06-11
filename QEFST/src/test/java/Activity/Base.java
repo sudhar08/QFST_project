@@ -7,10 +7,8 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Base {
-	public void init(){
-		WebDriver driver=new FirefoxDriver();
-		Actions builder=new Actions(driver);
-		WebDriverWait wait;
-		Select select;
-	}
+	WebDriver driver=new FirefoxDriver();
+	Actions builder=new Actions(driver);
+	WebDriverWait wait;
+	Select select;
 }
