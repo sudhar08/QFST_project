@@ -6,7 +6,12 @@
 			<class name="Activity.verifyPageTitle" />
 			<class name="Activity.Activity2" />
 			<class name="Activity.Activity_3" />
+			
 			<class name="Activity.loginTest" />
+			
+			<class name="Activity.Activity5" />
+			<class name="Activity.Activity6" />
+			<class name="Activity.Activity_7" />
 			<class name="Activity.Activity8" />
 		</classes>
 	</test> <!-- Test -->

@@ -5,6 +5,8 @@
     <classes>
       <class name="Activity.Activity8">
         <methods>
+          <include name="importFiles"/>
+          <include name="importAccountsTest"/>
           <include name="afterClass"/>
           <include name="displayOddRows"/>
         </methods>
