@@ -35,9 +35,9 @@ public class Activity2 extends Base {
 
 	}
 
-	@AfterClass
-	public void tearDown() {
-		// Close the browser
-		driver.quit();
-	}
+//	@AfterClass
+//	public void tearDown() {
+//		// Close the browser
+//		driver.quit();
+//	}
 }

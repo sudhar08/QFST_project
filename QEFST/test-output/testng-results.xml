@@ -1,29 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-12T09:53:11 IST" name="Suite" finished-at="2026-06-12T09:53:18 IST" duration-ms="6971">
+  <suite started-at="2026-06-12T10:39:00 IST" name="Suite" finished-at="2026-06-12T10:39:11 IST" duration-ms="10986">
     <groups>
     </groups>
-    <test started-at="2026-06-12T09:53:11 IST" name="Test" finished-at="2026-06-12T09:53:18 IST" duration-ms="6971">
+    <test started-at="2026-06-12T10:39:00 IST" name="Test" finished-at="2026-06-12T10:39:11 IST" duration-ms="10986">
       <class name="Activity.Activity_3">
-        <test-method signature="pickCopyrights()[pri:0, instance:Activity.Activity_3@10a9d961]" started-at="2026-06-12T09:53:13 IST" name="pickCopyrights" finished-at="2026-06-12T09:53:14 IST" duration-ms="647" status="PASS">
+        <test-method signature="pickCopyrights()[pri:0, instance:Activity.Activity_3@5ddf0d24]" started-at="2026-06-12T10:39:04 IST" name="pickCopyrights" finished-at="2026-06-12T10:39:04 IST" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pickCopyrights -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Activity.Activity_3@10a9d961]" started-at="2026-06-12T09:53:17 IST" name="teardown" finished-at="2026-06-12T09:53:18 IST" duration-ms="939" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Activity.Activity_3@5ddf0d24]" started-at="2026-06-12T10:39:10 IST" name="teardown" finished-at="2026-06-12T10:39:11 IST" duration-ms="1294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Activity.Activity_3 -->
       <class name="Activity.loginTest">
-        <test-method signature="login()[pri:0, instance:Activity.loginTest@130e116b]" started-at="2026-06-12T09:53:14 IST" name="login" finished-at="2026-06-12T09:53:17 IST" duration-ms="3472" status="PASS">
+        <test-method signature="login()[pri:0, instance:Activity.loginTest@363a52f]" started-at="2026-06-12T10:39:04 IST" name="login" finished-at="2026-06-12T10:39:10 IST" duration-ms="5314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
       </class> <!-- Activity.loginTest -->
+      <class name="Activity.Activity2">
+        <test-method signature="getCurrenturl()[pri:0, instance:Activity.Activity2@600b90df]" started-at="2026-06-12T10:39:02 IST" name="getCurrenturl" finished-at="2026-06-12T10:39:04 IST" duration-ms="1919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCurrenturl -->
+      </class> <!-- Activity.Activity2 -->
       <class name="Activity.verifyPageTitle">
-        <test-method signature="verifyPage()[pri:1, instance:Activity.verifyPageTitle@7b205dbd]" started-at="2026-06-12T09:53:11 IST" name="verifyPage" finished-at="2026-06-12T09:53:13 IST" duration-ms="1780" status="PASS">
+        <test-method signature="verifyPage()[pri:1, instance:Activity.verifyPageTitle@7a67e3c6]" started-at="2026-06-12T10:39:00 IST" name="verifyPage" finished-at="2026-06-12T10:39:02 IST" duration-ms="2139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPage -->

@@ -2,7 +2,6 @@ package Activity;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 
@@ -20,9 +19,9 @@ public class Activity_3 extends Base {
 	System.out.println(message);
 	}
 	
-	@AfterTest
-	public void teardown() {
-		driver.quit();
-	}
+	// @AfterTest
+	// public void teardown() {
+	// 	driver.quit();
+	// }
 
 }
