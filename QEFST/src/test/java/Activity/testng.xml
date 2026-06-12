@@ -10,7 +10,11 @@
 			<class name="Activity.loginTest" />
 			<class name="Activity.Activity5" />
 			<class name="Activity.Activity6" />
+			
+			
 			<class name="Activity.Activity_7" />
+			
+			<class name="Activity.Activity9" />
 		</classes>
 	</test> <!--
 	Test -->

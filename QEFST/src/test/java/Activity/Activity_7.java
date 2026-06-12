@@ -105,10 +105,10 @@ public class Activity_7 extends Base{
     }
     
     
-    @AfterClass
-	public void afterClass() {
-		// close the browser
-		driver.quit();
-	}
+//    @AfterClass
+//	public void afterClass() {
+//		// close the browser
+//		driver.quit();
+//	}
     
 }

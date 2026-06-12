@@ -1,51 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-12T13:55:05 IST" name="Suite" finished-at="2026-06-12T13:55:16 IST" duration-ms="11078">
+  <suite started-at="2026-06-12T15:56:54 IST" name="Suite" finished-at="2026-06-12T15:58:04 IST" duration-ms="69254">
     <groups>
     </groups>
-    <test started-at="2026-06-12T13:55:05 IST" name="Test" finished-at="2026-06-12T13:55:16 IST" duration-ms="11078">
+    <test started-at="2026-06-12T15:56:54 IST" name="Test" finished-at="2026-06-12T15:58:04 IST" duration-ms="69254">
+      <class name="Activity.Activity6">
+        <test-method signature="Navbar()[pri:0, instance:Activity.Activity6@10a9d961]" started-at="2026-06-12T15:57:05 IST" name="Navbar" finished-at="2026-06-12T15:57:05 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navbar -->
+      </class> <!-- Activity.Activity6 -->
       <class name="Activity.Activity9">
-        <test-method signature="checking_Leads()[pri:0, instance:Activity.Activity9@74589991]" started-at="2026-06-12T13:55:10 IST" name="checking_Leads" finished-at="2026-06-12T13:55:14 IST" duration-ms="4238" status="PASS">
+        <test-method signature="checking_Leads()[pri:0, instance:Activity.Activity9@363a52f]" started-at="2026-06-12T15:58:02 IST" name="checking_Leads" finished-at="2026-06-12T15:58:02 IST" duration-ms="793" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checking_Leads -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:Activity.Activity9@74589991]" started-at="2026-06-12T13:55:14 IST" name="afterClass" finished-at="2026-06-12T13:55:16 IST" duration-ms="1701" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Activity.Activity9@363a52f]" started-at="2026-06-12T15:58:02 IST" name="afterClass" finished-at="2026-06-12T15:58:04 IST" duration-ms="1282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- Activity.Activity9 -->
       <class name="Activity.Activity_3">
-        <test-method signature="pickCopyrights()[pri:0, instance:Activity.Activity_3@3daf7722]" started-at="2026-06-12T13:55:07 IST" name="pickCopyrights" finished-at="2026-06-12T13:55:07 IST" duration-ms="50" status="PASS">
-=======
-<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
-  <reporter-output>
-  </reporter-output>
-  <suite started-at="2026-06-12T14:48:28 IST" name="Suite" finished-at="2026-06-12T14:49:38 IST" duration-ms="70595">
-    <groups>
-    </groups>
-    <test started-at="2026-06-12T14:48:28 IST" name="Test" finished-at="2026-06-12T14:49:38 IST" duration-ms="70595">
-      <class name="Activity.Activity6">
-        <test-method signature="Navbar()[pri:0, instance:Activity.Activity6@7a362b6b]" started-at="2026-06-12T14:48:39 IST" name="Navbar" finished-at="2026-06-12T14:48:40 IST" duration-ms="65" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Navbar -->
-      </class> <!-- Activity.Activity6 -->
-      <class name="Activity.Activity_3">
-        <test-method signature="pickCopyrights()[pri:0, instance:Activity.Activity_3@73cd37c0]" started-at="2026-06-12T14:48:33 IST" name="pickCopyrights" finished-at="2026-06-12T14:48:33 IST" duration-ms="90" status="PASS">
->>>>>>> a3b4b1cfe9764f98e3f2c306564cd63feed18cb4
+        <test-method signature="pickCopyrights()[pri:0, instance:Activity.Activity_3@1c93f6e1]" started-at="2026-06-12T15:56:59 IST" name="pickCopyrights" finished-at="2026-06-12T15:56:59 IST" duration-ms="106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pickCopyrights -->
       </class> <!-- Activity.Activity_3 -->
-<<<<<<< HEAD
-      <class name="Activity.loginTest">
-        <test-method signature="login()[pri:0, instance:Activity.loginTest@78641d23]" started-at="2026-06-12T13:55:07 IST" name="login" finished-at="2026-06-12T13:55:10 IST" duration-ms="3228" status="PASS">
-=======
       <class name="Activity.Activity_7">
-        <test-method signature="addLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@14fc1f0]" started-at="2026-06-12T14:48:40 IST" name="addLeads" data-provider="csvData" finished-at="2026-06-12T14:48:50 IST" duration-ms="10429" status="PASS">
+        <test-method signature="addLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@5ddf0d24]" started-at="2026-06-12T15:57:05 IST" name="addLeads" data-provider="csvData" finished-at="2026-06-12T15:57:15 IST" duration-ms="10263" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -111,7 +95,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addLeads -->
-        <test-method signature="addLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@14fc1f0]" started-at="2026-06-12T14:48:50 IST" name="addLeads" data-provider="csvData" finished-at="2026-06-12T14:49:00 IST" duration-ms="9810" status="PASS">
+        <test-method signature="addLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@5ddf0d24]" started-at="2026-06-12T15:57:15 IST" name="addLeads" data-provider="csvData" finished-at="2026-06-12T15:57:24 IST" duration-ms="9465" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -177,7 +161,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addLeads -->
-        <test-method signature="addLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@14fc1f0]" started-at="2026-06-12T14:49:00 IST" name="addLeads" data-provider="csvData" finished-at="2026-06-12T14:49:10 IST" duration-ms="10541" status="PASS">
+        <test-method signature="addLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@5ddf0d24]" started-at="2026-06-12T15:57:24 IST" name="addLeads" data-provider="csvData" finished-at="2026-06-12T15:57:35 IST" duration-ms="10311" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -243,7 +227,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addLeads -->
-        <test-method signature="addLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@14fc1f0]" started-at="2026-06-12T14:49:10 IST" name="addLeads" data-provider="csvData" finished-at="2026-06-12T14:49:20 IST" duration-ms="9704" status="PASS">
+        <test-method signature="addLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@5ddf0d24]" started-at="2026-06-12T15:57:35 IST" name="addLeads" data-provider="csvData" finished-at="2026-06-12T15:57:45 IST" duration-ms="9877" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -309,7 +293,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addLeads -->
-        <test-method signature="addLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@14fc1f0]" started-at="2026-06-12T14:49:20 IST" name="addLeads" data-provider="csvData" finished-at="2026-06-12T14:49:30 IST" duration-ms="10090" status="PASS">
+        <test-method signature="addLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@5ddf0d24]" started-at="2026-06-12T15:57:45 IST" name="addLeads" data-provider="csvData" finished-at="2026-06-12T15:57:55 IST" duration-ms="10401" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -375,11 +359,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addLeads -->
-        <test-method signature="prerequireOfCheck()[pri:0, instance:Activity.Activity_7@14fc1f0]" started-at="2026-06-12T14:49:30 IST" name="prerequireOfCheck" finished-at="2026-06-12T14:49:37 IST" depends-on-methods="Activity.Activity_7.addLeads" duration-ms="6566" status="PASS">
+        <test-method signature="prerequireOfCheck()[pri:0, instance:Activity.Activity_7@5ddf0d24]" started-at="2026-06-12T15:57:55 IST" name="prerequireOfCheck" finished-at="2026-06-12T15:58:02 IST" depends-on-methods="Activity.Activity_7.addLeads" duration-ms="6561" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prerequireOfCheck -->
-        <test-method signature="checkPhoneInLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@14fc1f0]" started-at="2026-06-12T14:49:37 IST" name="checkPhoneInLeads" data-provider="csvData" finished-at="2026-06-12T14:49:37 IST" depends-on-methods="Activity.Activity_7.prerequireOfCheck" duration-ms="12" status="PASS">
+        <test-method signature="checkPhoneInLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@5ddf0d24]" started-at="2026-06-12T15:58:02 IST" name="checkPhoneInLeads" data-provider="csvData" finished-at="2026-06-12T15:58:02 IST" depends-on-methods="Activity.Activity_7.prerequireOfCheck" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -445,7 +429,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPhoneInLeads -->
-        <test-method signature="checkPhoneInLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@14fc1f0]" started-at="2026-06-12T14:49:37 IST" name="checkPhoneInLeads" data-provider="csvData" finished-at="2026-06-12T14:49:37 IST" depends-on-methods="Activity.Activity_7.prerequireOfCheck" duration-ms="4" status="PASS">
+        <test-method signature="checkPhoneInLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@5ddf0d24]" started-at="2026-06-12T15:58:02 IST" name="checkPhoneInLeads" data-provider="csvData" finished-at="2026-06-12T15:58:02 IST" depends-on-methods="Activity.Activity_7.prerequireOfCheck" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -511,7 +495,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPhoneInLeads -->
-        <test-method signature="checkPhoneInLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@14fc1f0]" started-at="2026-06-12T14:49:37 IST" name="checkPhoneInLeads" data-provider="csvData" finished-at="2026-06-12T14:49:37 IST" depends-on-methods="Activity.Activity_7.prerequireOfCheck" duration-ms="2" status="PASS">
+        <test-method signature="checkPhoneInLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@5ddf0d24]" started-at="2026-06-12T15:58:02 IST" name="checkPhoneInLeads" data-provider="csvData" finished-at="2026-06-12T15:58:02 IST" depends-on-methods="Activity.Activity_7.prerequireOfCheck" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -577,7 +561,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPhoneInLeads -->
-        <test-method signature="checkPhoneInLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@14fc1f0]" started-at="2026-06-12T14:49:37 IST" name="checkPhoneInLeads" data-provider="csvData" finished-at="2026-06-12T14:49:37 IST" depends-on-methods="Activity.Activity_7.prerequireOfCheck" duration-ms="0" status="PASS">
+        <test-method signature="checkPhoneInLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@5ddf0d24]" started-at="2026-06-12T15:58:02 IST" name="checkPhoneInLeads" data-provider="csvData" finished-at="2026-06-12T15:58:02 IST" depends-on-methods="Activity.Activity_7.prerequireOfCheck" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -643,7 +627,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPhoneInLeads -->
-        <test-method signature="checkPhoneInLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@14fc1f0]" started-at="2026-06-12T14:49:37 IST" name="checkPhoneInLeads" data-provider="csvData" finished-at="2026-06-12T14:49:37 IST" depends-on-methods="Activity.Activity_7.prerequireOfCheck" duration-ms="0" status="PASS">
+        <test-method signature="checkPhoneInLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@5ddf0d24]" started-at="2026-06-12T15:58:02 IST" name="checkPhoneInLeads" data-provider="csvData" finished-at="2026-06-12T15:58:02 IST" depends-on-methods="Activity.Activity_7.prerequireOfCheck" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -709,40 +693,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPhoneInLeads -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:Activity.Activity_7@14fc1f0]" started-at="2026-06-12T14:49:37 IST" name="afterClass" finished-at="2026-06-12T14:49:38 IST" duration-ms="1642" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
       </class> <!-- Activity.Activity_7 -->
       <class name="Activity.loginTest">
-        <test-method signature="login()[pri:0, instance:Activity.loginTest@21337f7b]" started-at="2026-06-12T14:48:33 IST" name="login" finished-at="2026-06-12T14:48:39 IST" duration-ms="6398" status="PASS">
->>>>>>> a3b4b1cfe9764f98e3f2c306564cd63feed18cb4
+        <test-method signature="login()[pri:0, instance:Activity.loginTest@1800a575]" started-at="2026-06-12T15:56:59 IST" name="login" finished-at="2026-06-12T15:57:04 IST" duration-ms="5465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
       </class> <!-- Activity.loginTest -->
       <class name="Activity.Activity2">
-<<<<<<< HEAD
-        <test-method signature="getCurrenturl()[pri:0, instance:Activity.Activity2@5f354bcf]" started-at="2026-06-12T13:55:06 IST" name="getCurrenturl" finished-at="2026-06-12T13:55:07 IST" duration-ms="744" status="PASS">
-=======
-        <test-method signature="getCurrenturl()[pri:0, instance:Activity.Activity2@5505ae1a]" started-at="2026-06-12T14:48:31 IST" name="getCurrenturl" finished-at="2026-06-12T14:48:33 IST" duration-ms="2367" status="PASS">
->>>>>>> a3b4b1cfe9764f98e3f2c306564cd63feed18cb4
+        <test-method signature="getCurrenturl()[pri:0, instance:Activity.Activity2@632ceb35]" started-at="2026-06-12T15:56:57 IST" name="getCurrenturl" finished-at="2026-06-12T15:56:59 IST" duration-ms="2196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCurrenturl -->
       </class> <!-- Activity.Activity2 -->
       <class name="Activity.Activity5">
-        <test-method signature="Navbar()[pri:0, instance:Activity.Activity5@2bb3058]" started-at="2026-06-12T14:48:39 IST" name="Navbar" finished-at="2026-06-12T14:48:39 IST" duration-ms="53" status="PASS">
+        <test-method signature="Navbar()[pri:0, instance:Activity.Activity5@1458ed9c]" started-at="2026-06-12T15:57:04 IST" name="Navbar" finished-at="2026-06-12T15:57:05 IST" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Navbar -->
       </class> <!-- Activity.Activity5 -->
       <class name="Activity.verifyPageTitle">
-<<<<<<< HEAD
-        <test-method signature="verifyPage()[pri:1, instance:Activity.verifyPageTitle@558bdf1f]" started-at="2026-06-12T13:55:05 IST" name="verifyPage" finished-at="2026-06-12T13:55:06 IST" duration-ms="962" status="PASS">
-=======
-        <test-method signature="verifyPage()[pri:1, instance:Activity.verifyPageTitle@291a7e3c]" started-at="2026-06-12T14:48:28 IST" name="verifyPage" finished-at="2026-06-12T14:48:30 IST" duration-ms="2500" status="PASS">
->>>>>>> a3b4b1cfe9764f98e3f2c306564cd63feed18cb4
+        <test-method signature="verifyPage()[pri:1, instance:Activity.verifyPageTitle@60df60da]" started-at="2026-06-12T15:56:55 IST" name="verifyPage" finished-at="2026-06-12T15:56:57 IST" duration-ms="2048" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPage -->
