@@ -8,6 +8,14 @@
           <include name="getCurrenturl"/>
         </methods>
       </class> <!-- Activity.Activity2 -->
+      <class name="Activity.Activity_7">
+        <methods>
+          <include name="checkPhoneInLeads"/>
+          <include name="afterClass"/>
+          <include name="addLeads"/>
+          <include name="prerequireOfCheck"/>
+        </methods>
+      </class> <!-- Activity.Activity_7 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
