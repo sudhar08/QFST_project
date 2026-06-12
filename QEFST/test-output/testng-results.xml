@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-11T15:56:03 IST" name="Default suite" finished-at="2026-06-11T15:56:08 IST" duration-ms="5196">
+  <suite started-at="2026-06-12T09:46:34 IST" name="Suite" finished-at="2026-06-12T09:46:45 IST" duration-ms="11819">
     <groups>
     </groups>
-    <test started-at="2026-06-11T15:56:03 IST" name="Default test" finished-at="2026-06-11T15:56:08 IST" duration-ms="5196">
-      <class name="Activity.activity3">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Activity.activity3@78641d23]" started-at="2026-06-11T15:56:03 IST" name="setup" finished-at="2026-06-11T15:56:06 IST" duration-ms="2593" status="PASS">
+    <test started-at="2026-06-12T09:46:34 IST" name="Test" finished-at="2026-06-12T09:46:45 IST" duration-ms="11819">
+      <class name="Activity.loginTest">
+        <test-method signature="login()[pri:0, instance:Activity.loginTest@6cc558c6]" started-at="2026-06-12T09:46:36 IST" name="login" finished-at="2026-06-12T09:46:44 IST" duration-ms="8163" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="pickCopyrights()[pri:0, instance:Activity.activity3@78641d23]" started-at="2026-06-11T15:56:06 IST" name="pickCopyrights" finished-at="2026-06-11T15:56:07 IST" duration-ms="1224" status="PASS">
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Activity.loginTest@6cc558c6]" started-at="2026-06-12T09:46:44 IST" name="afterClass" finished-at="2026-06-12T09:46:45 IST" duration-ms="1443" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pickCopyrights -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Activity.activity3@78641d23]" started-at="2026-06-11T15:56:07 IST" name="teardown" finished-at="2026-06-11T15:56:08 IST" duration-ms="1264" status="PASS">
+        </test-method> <!-- afterClass -->
+      </class> <!-- Activity.loginTest -->
+      <class name="Activity.verifyPageTitle">
+        <test-method signature="verifyPage()[pri:1, instance:Activity.verifyPageTitle@2c78d320]" started-at="2026-06-12T09:46:34 IST" name="verifyPage" finished-at="2026-06-12T09:46:36 IST" duration-ms="2043" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Activity.activity3 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- verifyPage -->
+      </class> <!-- Activity.verifyPageTitle -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
