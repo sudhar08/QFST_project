@@ -1,36 +1,34 @@
 package Activity;
 
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
-// import org.testng.annotations.BeforeClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-// import org.testng.annotations.AfterClass;
+import org.testng.Assert;
+
+ import org.testng.annotations.AfterClass;
+// import org.testng.annotations.BeforeClass;
+// import java.time.Duration;
+// import org.openqa.selenium.WebDriver;
 // import org.openqa.selenium.firefox.FirefoxDriver;
-//import org.openqa.selenium.interactions.Actions;
+// import org.openqa.selenium.interactions.Actions;
 //import org.openqa.selenium.support.ui.Select;
 // import org.openqa.selenium.support.ui.WebDriverWait;
-// import java.time.Duration;
-//import org.openqa.selenium.WebDriver;
-// import org.testng.Assert;
 
-
-public class Activity5 extends Base  {
+public class Activity6 extends Base {
 	
 	// WebDriver driver=new FirefoxDriver();
 	// Actions builder=new Actions(driver);
-	// WebDriverWait wait;
 	//Select select;
 	
  
   // @BeforeClass
   // public void setup()
   // {
-	// //  driver = new FirefoxDriver();
+	//   //driver = new FirefoxDriver();
 	// //   driver.get("http://crm.local:3050/#/Login");
 	// // Set a global 10-second implicit wait timeout threshold
 
-	//   // driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	// //   driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
   // }
   
@@ -59,21 +57,20 @@ public class Activity5 extends Base  {
   @Test
   public void Navbar() 
   {
+
     driver.get("http://crm.local:3050/#/home");
-
   WebElement navbar = driver.findElement(By.xpath("//nav[@class='navbar navbar-expand-md navbar-1 ng-tns-c2316037842-2 ng-star-inserted']"));
-  String navbar_color = navbar.getCssValue("background-color");
-
-  System.out.println(navbar_color);
-
-
+ 
+  String Accounts = navbar.findElement(By.xpath("//span[@class=\"ng-star-inserted\"]")).getText();
+  
+  Assert.assertEquals(Accounts,"Accounts");
+  //System.out.println(Opportunities);
   }
   
-//  @AfterClass
-//	public void afterClass() {
-//		// close the browser
-//		driver.quit();
-//	}
-
+   @AfterClass
+   public void tearDown() 
+   {
+	    driver.quit();
+   }
 
 }

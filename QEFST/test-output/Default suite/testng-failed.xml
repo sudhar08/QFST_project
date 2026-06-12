@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Activity.Activity2">
+      <class name="Activity.Activity5">
         <methods>
-          <include name="getCurrenturl"/>
+          <include name="Navbar"/>
         </methods>
-      </class> <!-- Activity.Activity2 -->
+      </class> <!-- Activity.Activity5 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
