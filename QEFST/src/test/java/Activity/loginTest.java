@@ -1,10 +1,8 @@
 package Activity;
 
-import static org.testng.Assert.assertTrue;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.testng.annotations.AfterClass;
+import static org.testng.Assert.assertTrue;
 import org.testng.annotations.Test;
 
 public class loginTest extends Base {
@@ -26,10 +24,10 @@ public class loginTest extends Base {
 		assertTrue(dashboardText.contains("SUITECRM DASHBOARD"));
 	}
 
-	@AfterClass
-	public void afterClass() {
-		// close the browser
-		driver.quit();
-	}
+	// @AfterClass
+	// public void afterClass() {
+	// 	// close the browser
+	// 	driver.quit();
+	// }
 
 }
