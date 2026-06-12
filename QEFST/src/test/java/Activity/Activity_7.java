@@ -104,7 +104,7 @@ public class Activity_7 extends Base{
     	assertEquals(off,map.get(fn+" "+ln));
     }
     
-    
+//    
 //    @AfterClass
 //	public void afterClass() {
 //		// close the browser

@@ -4,6 +4,15 @@
   <test thread-count="5" name="Default test(failed)">
     <classes>
 <<<<<<< HEAD
+      <class name="Activity.Activity8">
+        <methods>
+          <include name="importFiles"/>
+          <include name="importAccountsTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Activity.Activity8 -->
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
       <class name="Activity.Activity_7">
         <methods>
@@ -27,6 +36,7 @@
 =======
       </class> <!-- Activity.Activity5 -->
 >>>>>>> feature/ragulan-testing
+>>>>>>> a3b4b1cfe9764f98e3f2c306564cd63feed18cb4
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

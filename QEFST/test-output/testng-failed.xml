@@ -3,12 +3,23 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="Activity.Activity9">
         <methods>
           <include name="checking_Leads"/>
           <include name="afterClass"/>
         </methods>
       </class> <!-- Activity.Activity9 -->
+=======
+      <class name="Activity.Activity8">
+        <methods>
+          <include name="importFiles"/>
+          <include name="importAccountsTest"/>
+          <include name="afterClass"/>
+          <include name="displayOddRows"/>
+        </methods>
+      </class> <!-- Activity.Activity8 -->
+>>>>>>> 37ac86cf1bcf4b907af2a09330a56ad645711806
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
