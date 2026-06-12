@@ -26,10 +26,10 @@ public class loginTest extends Base {
 		assertTrue(dashboardText.contains("SUITECRM DASHBOARD"));
 	}
 
-	@AfterClass
-	public void afterClass() {
-		// close the browser
-		driver.quit();
-	}
+//	@AfterClass
+//	public void afterClass() {
+//		// close the browser
+//		driver.quit();
+//	}
 
 }

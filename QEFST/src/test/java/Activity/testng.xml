@@ -7,8 +7,7 @@
 			<class name="Activity.Activity2" />
 			<class name="Activity.Activity_3" />
 			<class name="Activity.loginTest" />
+			<class name="Activity.Activity8" />
 		</classes>
-	</test> <!--
-	Test -->
-</suite> <!--
-Suite -->
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
