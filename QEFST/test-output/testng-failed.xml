@@ -3,22 +3,19 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-<<<<<<< HEAD
-      <class name="Activity.Activity_7">
-        <methods>
-          <include name="checkPhoneInLeads" invocation-numbers="0"/>
-          <include name="login"/>
-          <include name="addLeads"/>
-          <include name="prerequireOfCheck"/>
-        </methods>
-      </class> <!-- Activity.Activity_7 -->
-=======
       <class name="Activity.Activity2">
         <methods>
           <include name="getCurrenturl"/>
         </methods>
       </class> <!-- Activity.Activity2 -->
->>>>>>> 6f417bf382a511ce3be380b9ef898c0f0ed590ae
+      <class name="Activity.Activity_7">
+        <methods>
+          <include name="checkPhoneInLeads"/>
+          <include name="afterClass"/>
+          <include name="addLeads"/>
+          <include name="prerequireOfCheck"/>
+        </methods>
+      </class> <!-- Activity.Activity_7 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

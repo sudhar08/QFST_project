@@ -40,7 +40,7 @@ public class Activity_7 extends Base{
         List<Object[]> data = new ArrayList<>();
 
         BufferedReader br = new BufferedReader(
-                new FileReader("C:/Users/JanaJana/eclipse-workspace-n/QFST_project/QEFST/src/data/templates/Leads.csv"));
+                new FileReader("src/data/templates/Leads.csv"));
         
         String line;
         br.readLine();

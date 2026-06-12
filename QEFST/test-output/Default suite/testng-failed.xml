@@ -4,6 +4,7 @@
   <test thread-count="5" name="Default test(failed)">
     <classes>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <class name="Activity.Activity_7">
         <methods>
           <include name="checkPhoneInLeads" invocation-numbers="0"/>
@@ -14,11 +15,18 @@
       </class> <!-- Activity.Activity_7 -->
 =======
       <class name="Activity.Activity2">
+=======
+      <class name="Activity.Activity5">
+>>>>>>> feature/ragulan-testing
         <methods>
-          <include name="getCurrenturl"/>
+          <include name="Navbar"/>
         </methods>
+<<<<<<< HEAD
       </class> <!-- Activity.Activity2 -->
 >>>>>>> 6f417bf382a511ce3be380b9ef898c0f0ed590ae
+=======
+      </class> <!-- Activity.Activity5 -->
+>>>>>>> feature/ragulan-testing
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
