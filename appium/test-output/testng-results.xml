@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-16T09:34:49 IST" name="Default suite" finished-at="2026-06-16T09:35:09 IST" duration-ms="19849">
+    <groups>
+    </groups>
+    <test started-at="2026-06-16T09:34:49 IST" name="Default test" finished-at="2026-06-16T09:35:09 IST" duration-ms="19849">
+      <class name="example.Activity3">
+        <test-method is-config="true" signature="setup()[pri:0, instance:example.Activity3@3e96bacf]" started-at="2026-06-16T09:34:49 IST" name="setup" finished-at="2026-06-16T09:34:57 IST" duration-ms="8276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="calulator_add()[pri:1, instance:example.Activity3@3e96bacf]" started-at="2026-06-16T09:34:57 IST" name="calulator_add" finished-at="2026-06-16T09:35:02 IST" duration-ms="4915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calulator_add -->
+        <test-method is-config="true" signature="clearall()[pri:0, instance:example.Activity3@3e96bacf]" started-at="2026-06-16T09:35:02 IST" name="clearall" finished-at="2026-06-16T09:35:03 IST" duration-ms="878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearall -->
+        <test-method signature="calulator_sub()[pri:2, instance:example.Activity3@3e96bacf]" started-at="2026-06-16T09:35:03 IST" name="calulator_sub" finished-at="2026-06-16T09:35:07 IST" duration-ms="3709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calulator_sub -->
+        <test-method is-config="true" signature="clearall()[pri:0, instance:example.Activity3@3e96bacf]" started-at="2026-06-16T09:35:07 IST" name="clearall" finished-at="2026-06-16T09:35:08 IST" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearall -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:example.Activity3@3e96bacf]" started-at="2026-06-16T09:35:08 IST" name="teardown" finished-at="2026-06-16T09:35:09 IST" duration-ms="1314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- example.Activity3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

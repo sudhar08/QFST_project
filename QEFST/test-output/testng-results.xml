@@ -1,49 +1,366 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+<testng-results ignored="0" total="17" passed="2" failed="13" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-12T16:11:51 IST" name="Suite" finished-at="2026-06-12T16:13:10 IST" duration-ms="79520">
+  <suite started-at="2026-06-16T18:42:19 IST" name="Suite" finished-at="2026-06-16T18:42:31 IST" duration-ms="11821">
     <groups>
     </groups>
-    <test started-at="2026-06-12T16:11:51 IST" name="Test" finished-at="2026-06-12T16:13:10 IST" duration-ms="79520">
+    <test started-at="2026-06-16T18:42:19 IST" name="Test" finished-at="2026-06-16T18:42:31 IST" duration-ms="11821">
       <class name="Activity.Activity6">
-        <test-method signature="Navbar()[pri:0, instance:Activity.Activity6@5f9be66c]" started-at="2026-06-12T16:12:01 IST" name="Navbar" finished-at="2026-06-12T16:12:01 IST" duration-ms="106" status="PASS">
+        <test-method signature="Navbar()[pri:0, instance:Activity.Activity6@5f9be66c]" started-at="2026-06-16T18:42:30 IST" name="Navbar" finished-at="2026-06-16T18:42:30 IST" duration-ms="10" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9145fb54-0e75-4a2a-8fea-dc157d2d216d, get {url=http://crm.local:3050/#/home}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29900, moz:profile: C:\Users\SUDHAR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9145fb54-0e75-4a2a-8fea-dc157d2d216d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9145fb54-0e75-4a2a-8fea-dc157d2d216d, get {url=http://crm.local:3050/#/home}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29900, moz:profile: C:\Users\SUDHAR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9145fb54-0e75-4a2a-8fea-dc157d2d216d
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:369)
+at Activity.Activity6.Navbar(Activity6.java:61)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Navbar -->
       </class> <!-- Activity.Activity6 -->
       <class name="Activity.Activity9">
-        <test-method signature="checking_Leads()[pri:0, instance:Activity.Activity9@6ccdb29f]" started-at="2026-06-12T16:13:05 IST" name="checking_Leads" finished-at="2026-06-12T16:13:09 IST" duration-ms="3599" status="PASS">
+        <test-method signature="checking_Leads()[pri:0, instance:Activity.Activity9@6ccdb29f]" started-at="2026-06-16T18:42:31 IST" name="checking_Leads" finished-at="2026-06-16T18:42:31 IST" duration-ms="15" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9145fb54-0e75-4a2a-8fea-dc157d2d216d, get {url=http://crm.local:3050/#/home}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29900, moz:profile: C:\Users\SUDHAR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9145fb54-0e75-4a2a-8fea-dc157d2d216d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9145fb54-0e75-4a2a-8fea-dc157d2d216d, get {url=http://crm.local:3050/#/home}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29900, moz:profile: C:\Users\SUDHAR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9145fb54-0e75-4a2a-8fea-dc157d2d216d
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:369)
+at Activity.Activity9.checking_Leads(Activity9.java:15)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checking_Leads -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:Activity.Activity9@6ccdb29f]" started-at="2026-06-12T16:13:09 IST" name="afterClass" finished-at="2026-06-12T16:13:10 IST" duration-ms="1175" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Activity.Activity9@6ccdb29f]" started-at="2026-06-16T18:42:31 IST" name="afterClass" finished-at="2026-06-16T18:42:31 IST" duration-ms="27" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9145fb54-0e75-4a2a-8fea-dc157d2d216d, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29900, moz:profile: C:\Users\SUDHAR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9145fb54-0e75-4a2a-8fea-dc157d2d216d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9145fb54-0e75-4a2a-8fea-dc157d2d216d, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29900, moz:profile: C:\Users\SUDHAR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9145fb54-0e75-4a2a-8fea-dc157d2d216d
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- Activity.Activity9 -->
       <class name="Activity.Activity_3">
-        <test-method signature="pickCopyrights()[pri:0, instance:Activity.Activity_3@2fd953a6]" started-at="2026-06-12T16:11:55 IST" name="pickCopyrights" finished-at="2026-06-12T16:11:55 IST" duration-ms="80" status="PASS">
+        <test-method signature="pickCopyrights()[pri:0, instance:Activity.Activity_3@2fd953a6]" started-at="2026-06-16T18:42:29 IST" name="pickCopyrights" finished-at="2026-06-16T18:42:29 IST" duration-ms="480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pickCopyrights -->
       </class> <!-- Activity.Activity_3 -->
       <class name="Activity.Activity8">
-        <test-method signature="importAccountsTest()[pri:1, instance:Activity.Activity8@c9d0d6]" started-at="2026-06-12T16:12:57 IST" name="importAccountsTest" finished-at="2026-06-12T16:12:59 IST" duration-ms="2230" status="PASS">
+        <test-method signature="importAccountsTest()[pri:1, instance:Activity.Activity8@c9d0d6]" started-at="2026-06-16T18:42:31 IST" name="importAccountsTest" finished-at="2026-06-16T18:42:31 IST" duration-ms="13" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9145fb54-0e75-4a2a-8fea-dc157d2d216d, get {url=http://crm.local:3050/#/home}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29900, moz:profile: C:\Users\SUDHAR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9145fb54-0e75-4a2a-8fea-dc157d2d216d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9145fb54-0e75-4a2a-8fea-dc157d2d216d, get {url=http://crm.local:3050/#/home}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29900, moz:profile: C:\Users\SUDHAR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9145fb54-0e75-4a2a-8fea-dc157d2d216d
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:369)
+at Activity.Activity8.importAccountsTest(Activity8.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- importAccountsTest -->
-        <test-method signature="importFiles()[pri:2, instance:Activity.Activity8@c9d0d6]" started-at="2026-06-12T16:12:59 IST" name="importFiles" finished-at="2026-06-12T16:13:05 IST" duration-ms="5941" status="PASS">
+        <test-method signature="importFiles()[pri:2, instance:Activity.Activity8@c9d0d6]" started-at="2026-06-16T18:42:31 IST" name="importFiles" finished-at="2026-06-16T18:42:31 IST" duration-ms="12" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9145fb54-0e75-4a2a-8fea-dc157d2d216d, findElement {using=id, value=userfile}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29900, moz:profile: C:\Users\SUDHAR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9145fb54-0e75-4a2a-8fea-dc157d2d216d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9145fb54-0e75-4a2a-8fea-dc157d2d216d, findElement {using=id, value=userfile}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29900, moz:profile: C:\Users\SUDHAR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9145fb54-0e75-4a2a-8fea-dc157d2d216d
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:424)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:418)
+at Activity.Activity8.importFiles(Activity8.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- importFiles -->
-        <test-method signature="displayOddRows()[pri:3, instance:Activity.Activity8@c9d0d6]" started-at="2026-06-12T16:13:05 IST" name="displayOddRows" finished-at="2026-06-12T16:13:05 IST" duration-ms="134" status="PASS">
+        <test-method signature="displayOddRows()[pri:3, instance:Activity.Activity8@c9d0d6]" started-at="2026-06-16T18:42:31 IST" name="displayOddRows" finished-at="2026-06-16T18:42:31 IST" duration-ms="16" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9145fb54-0e75-4a2a-8fea-dc157d2d216d, findElements {using=xpath, value=//table[@role='table']/tbody/tr}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29900, moz:profile: C:\Users\SUDHAR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9145fb54-0e75-4a2a-8fea-dc157d2d216d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9145fb54-0e75-4a2a-8fea-dc157d2d216d, findElements {using=xpath, value=//table[@role='table']/tbody/tr}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29900, moz:profile: C:\Users\SUDHAR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9145fb54-0e75-4a2a-8fea-dc157d2d216d
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:183)
+at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:104)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:437)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:431)
+at Activity.Activity8.displayOddRows(Activity8.java:89)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- displayOddRows -->
       </class> <!-- Activity.Activity8 -->
       <class name="Activity.Activity_7">
-        <test-method signature="addLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@61fe30]" started-at="2026-06-12T16:12:01 IST" name="addLeads" data-provider="csvData" finished-at="2026-06-12T16:12:11 IST" duration-ms="9914" status="PASS">
+        <test-method signature="addLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@61fe30]" started-at="2026-06-16T18:42:31 IST" name="addLeads" data-provider="csvData" finished-at="2026-06-16T18:42:31 IST" duration-ms="37" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -106,10 +423,68 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9145fb54-0e75-4a2a-8fea-dc157d2d216d, actions {actions=[org.openqa.selenium.interactions.Sequence@bf1ec20]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29900, moz:profile: C:\Users\SUDHAR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9145fb54-0e75-4a2a-8fea-dc157d2d216d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9145fb54-0e75-4a2a-8fea-dc157d2d216d, actions {actions=[org.openqa.selenium.interactions.Sequence@bf1ec20]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29900, moz:profile: C:\Users\SUDHAR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9145fb54-0e75-4a2a-8fea-dc157d2d216d
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:691)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:616)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:581)
+at Activity.Activity_7.addLeads(Activity_7.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addLeads -->
-        <test-method signature="addLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@61fe30]" started-at="2026-06-12T16:12:11 IST" name="addLeads" data-provider="csvData" finished-at="2026-06-12T16:12:21 IST" duration-ms="9660" status="PASS">
+        <test-method signature="addLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@61fe30]" started-at="2026-06-16T18:42:31 IST" name="addLeads" data-provider="csvData" finished-at="2026-06-16T18:42:31 IST" duration-ms="11" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -172,10 +547,68 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9145fb54-0e75-4a2a-8fea-dc157d2d216d, actions {actions=[org.openqa.selenium.interactions.Sequence@5a85c92]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29900, moz:profile: C:\Users\SUDHAR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9145fb54-0e75-4a2a-8fea-dc157d2d216d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9145fb54-0e75-4a2a-8fea-dc157d2d216d, actions {actions=[org.openqa.selenium.interactions.Sequence@5a85c92]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29900, moz:profile: C:\Users\SUDHAR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9145fb54-0e75-4a2a-8fea-dc157d2d216d
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:691)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:616)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:581)
+at Activity.Activity_7.addLeads(Activity_7.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addLeads -->
-        <test-method signature="addLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@61fe30]" started-at="2026-06-12T16:12:21 IST" name="addLeads" data-provider="csvData" finished-at="2026-06-12T16:12:30 IST" duration-ms="9613" status="PASS">
+        <test-method signature="addLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@61fe30]" started-at="2026-06-16T18:42:31 IST" name="addLeads" data-provider="csvData" finished-at="2026-06-16T18:42:31 IST" duration-ms="15" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -238,10 +671,68 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9145fb54-0e75-4a2a-8fea-dc157d2d216d, actions {actions=[org.openqa.selenium.interactions.Sequence@793138bd]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29900, moz:profile: C:\Users\SUDHAR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9145fb54-0e75-4a2a-8fea-dc157d2d216d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9145fb54-0e75-4a2a-8fea-dc157d2d216d, actions {actions=[org.openqa.selenium.interactions.Sequence@793138bd]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29900, moz:profile: C:\Users\SUDHAR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9145fb54-0e75-4a2a-8fea-dc157d2d216d
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:691)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:616)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:581)
+at Activity.Activity_7.addLeads(Activity_7.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addLeads -->
-        <test-method signature="addLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@61fe30]" started-at="2026-06-12T16:12:30 IST" name="addLeads" data-provider="csvData" finished-at="2026-06-12T16:12:40 IST" duration-ms="9492" status="PASS">
+        <test-method signature="addLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@61fe30]" started-at="2026-06-16T18:42:31 IST" name="addLeads" data-provider="csvData" finished-at="2026-06-16T18:42:31 IST" duration-ms="20" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -304,10 +795,68 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9145fb54-0e75-4a2a-8fea-dc157d2d216d, actions {actions=[org.openqa.selenium.interactions.Sequence@4409e975]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29900, moz:profile: C:\Users\SUDHAR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9145fb54-0e75-4a2a-8fea-dc157d2d216d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9145fb54-0e75-4a2a-8fea-dc157d2d216d, actions {actions=[org.openqa.selenium.interactions.Sequence@4409e975]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29900, moz:profile: C:\Users\SUDHAR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9145fb54-0e75-4a2a-8fea-dc157d2d216d
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:691)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:616)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:581)
+at Activity.Activity_7.addLeads(Activity_7.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addLeads -->
-        <test-method signature="addLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@61fe30]" started-at="2026-06-12T16:12:40 IST" name="addLeads" data-provider="csvData" finished-at="2026-06-12T16:12:50 IST" duration-ms="10270" status="PASS">
+        <test-method signature="addLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@61fe30]" started-at="2026-06-16T18:42:31 IST" name="addLeads" data-provider="csvData" finished-at="2026-06-16T18:42:31 IST" duration-ms="15" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -370,364 +919,335 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9145fb54-0e75-4a2a-8fea-dc157d2d216d, actions {actions=[org.openqa.selenium.interactions.Sequence@774698ab]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29900, moz:profile: C:\Users\SUDHAR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9145fb54-0e75-4a2a-8fea-dc157d2d216d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9145fb54-0e75-4a2a-8fea-dc157d2d216d, actions {actions=[org.openqa.selenium.interactions.Sequence@774698ab]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29900, moz:profile: C:\Users\SUDHAR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9145fb54-0e75-4a2a-8fea-dc157d2d216d
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:691)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:616)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:581)
+at Activity.Activity_7.addLeads(Activity_7.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addLeads -->
-        <test-method signature="prerequireOfCheck()[pri:0, instance:Activity.Activity_7@61fe30]" started-at="2026-06-12T16:12:50 IST" name="prerequireOfCheck" finished-at="2026-06-12T16:12:57 IST" depends-on-methods="Activity.Activity_7.addLeads" duration-ms="6859" status="PASS">
+        <test-method signature="prerequireOfCheck()[pri:0, instance:Activity.Activity_7@61fe30]" started-at="2026-06-16T18:42:31 IST" name="prerequireOfCheck" finished-at="2026-06-16T18:42:31 IST" depends-on-methods="Activity.Activity_7.addLeads" duration-ms="1" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Activity.Activity_7.prerequireOfCheck() on instance Activity.Activity_7@61fe30 depends on not successfully finished methods 
+[Activity.Activity_7.addLeads() on instance Activity.Activity_7@61fe30]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Activity.Activity_7.prerequireOfCheck() on instance Activity.Activity_7@61fe30 depends on not successfully finished methods 
+[Activity.Activity_7.addLeads() on instance Activity.Activity_7@61fe30]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prerequireOfCheck -->
-        <test-method signature="checkPhoneInLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@61fe30]" started-at="2026-06-12T16:12:57 IST" name="checkPhoneInLeads" data-provider="csvData" finished-at="2026-06-12T16:12:57 IST" depends-on-methods="Activity.Activity_7.prerequireOfCheck" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Tisha]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Heger]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Mgr Operations]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[SAP]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[www.kidkid.org]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[section36@example.co.jp]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[(965) 418-0725]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[(438) 740-3153]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[Sacramento]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[California]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[55189]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[USA]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkPhoneInLeads -->
-        <test-method signature="checkPhoneInLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@61fe30]" started-at="2026-06-12T16:12:57 IST" name="checkPhoneInLeads" data-provider="csvData" finished-at="2026-06-12T16:12:57 IST" depends-on-methods="Activity.Activity_7.prerequireOfCheck" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Joan]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Maust]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Director Operations]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[QE]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[www.kidphone.cn]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[the.kid@example.net]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[(651) 772-9328]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[(408) 982-7873]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[Dover]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Delaware]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[30799]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[USA]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkPhoneInLeads -->
-        <test-method signature="checkPhoneInLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@61fe30]" started-at="2026-06-12T16:12:57 IST" name="checkPhoneInLeads" data-provider="csvData" finished-at="2026-06-12T16:12:57 IST" depends-on-methods="Activity.Activity_7.prerequireOfCheck" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Heriberto]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Bronstein]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Senior Product Manager]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[SAP]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[www.supporthr.org]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[im.sales@example.co.uk]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[(012) 965-2281]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[(652) 426-9235]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[Alabama]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Alabama]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[36130]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[USA]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkPhoneInLeads -->
-        <test-method signature="checkPhoneInLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@61fe30]" started-at="2026-06-12T16:12:57 IST" name="checkPhoneInLeads" data-provider="csvData" finished-at="2026-06-12T16:12:57 IST" depends-on-methods="Activity.Activity_7.prerequireOfCheck" duration-ms="12" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Lon]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Towle]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[IT Developer]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Z-OS]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[www.hrsupport.cn]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[vegan.section@example.tw]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[(925) 932-8963]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[(018) 989-5301]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[Ohio]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Ohio]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[51321]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[USA]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkPhoneInLeads -->
-        <test-method signature="checkPhoneInLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@61fe30]" started-at="2026-06-12T16:12:57 IST" name="checkPhoneInLeads" data-provider="csvData" finished-at="2026-06-12T16:12:57 IST" depends-on-methods="Activity.Activity_7.prerequireOfCheck" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Clare]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Lamoreaux]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[President]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Java Fullstack]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[www.sectionhr.edu]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[dev.sales@example.com]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[(743) 451-7527]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[(400) 189-3693]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[Salt Lake City]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Utah]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[81670]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[USA]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="checkPhoneInLeads(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Activity.Activity_7@61fe30]" started-at="2026-06-16T18:42:31 IST" name="checkPhoneInLeads" finished-at="2026-06-16T18:42:31 IST" depends-on-methods="Activity.Activity_7.prerequireOfCheck" duration-ms="2" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Activity.Activity_7.checkPhoneInLeads() on instance Activity.Activity_7@61fe30 depends on not successfully finished methods 
+[Activity.Activity_7.prerequireOfCheck() on instance Activity.Activity_7@61fe30]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Activity.Activity_7.checkPhoneInLeads() on instance Activity.Activity_7@61fe30 depends on not successfully finished methods 
+[Activity.Activity_7.prerequireOfCheck() on instance Activity.Activity_7@61fe30]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPhoneInLeads -->
       </class> <!-- Activity.Activity_7 -->
       <class name="Activity.loginTest">
-        <test-method signature="login()[pri:0, instance:Activity.loginTest@a4add54]" started-at="2026-06-12T16:11:55 IST" name="login" finished-at="2026-06-12T16:12:01 IST" duration-ms="5658" status="PASS">
+        <test-method signature="login()[pri:0, instance:Activity.loginTest@a4add54]" started-at="2026-06-16T18:42:29 IST" name="login" finished-at="2026-06-16T18:42:30 IST" duration-ms="1304" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to decode response from marionette
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9145fb54-0e75-4a2a-8fea-dc157d2d216d, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29900, moz:profile: C:\Users\SUDHAR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9145fb54-0e75-4a2a-8fea-dc157d2d216d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9145fb54-0e75-4a2a-8fea-dc157d2d216d, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29900, moz:profile: C:\Users\SUDHAR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9145fb54-0e75-4a2a-8fea-dc157d2d216d
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:424)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:418)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:758)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:751)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:207)
+at Activity.loginTest.login(loginTest.java:17)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
       </class> <!-- Activity.loginTest -->
       <class name="Activity.Activity2">
-        <test-method signature="getCurrenturl()[pri:0, instance:Activity.Activity2@60856961]" started-at="2026-06-12T16:11:53 IST" name="getCurrenturl" finished-at="2026-06-12T16:11:55 IST" duration-ms="2098" status="PASS">
+        <test-method signature="getCurrenturl()[pri:0, instance:Activity.Activity2@60856961]" started-at="2026-06-16T18:42:24 IST" name="getCurrenturl" finished-at="2026-06-16T18:42:29 IST" duration-ms="4159" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: /html/body/app-root/div/scrm-login-ui/div/form/div[1]/div/scrm-logo-ui/scrm-image/img
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9145fb54-0e75-4a2a-8fea-dc157d2d216d, findElement {using=xpath, value=/html/body/app-root/div/scrm-login-ui/div/form/div[1]/div/scrm-logo-ui/scrm-image/img}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29900, moz:profile: C:\Users\SUDHAR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9145fb54-0e75-4a2a-8fea-dc157d2d216d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/app-root/div/scrm-login-ui/div/form/div[1]/div/scrm-logo-ui/scrm-image/img
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9145fb54-0e75-4a2a-8fea-dc157d2d216d, findElement {using=xpath, value=/html/body/app-root/div/scrm-login-ui/div/form/div[1]/div/scrm-logo-ui/scrm-image/img}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29900, moz:profile: C:\Users\SUDHAR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9145fb54-0e75-4a2a-8fea-dc157d2d216d
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:424)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:418)
+at Activity.Activity2.getCurrenturl(Activity2.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCurrenturl -->
       </class> <!-- Activity.Activity2 -->
       <class name="Activity.Activity5">
-        <test-method signature="Navbar()[pri:0, instance:Activity.Activity5@141e5bef]" started-at="2026-06-12T16:12:01 IST" name="Navbar" finished-at="2026-06-12T16:12:01 IST" duration-ms="77" status="PASS">
+        <test-method signature="Navbar()[pri:0, instance:Activity.Activity5@141e5bef]" started-at="2026-06-16T18:42:30 IST" name="Navbar" finished-at="2026-06-16T18:42:30 IST" duration-ms="13" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9145fb54-0e75-4a2a-8fea-dc157d2d216d, get {url=http://crm.local:3050/#/home}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29900, moz:profile: C:\Users\SUDHAR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9145fb54-0e75-4a2a-8fea-dc157d2d216d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9145fb54-0e75-4a2a-8fea-dc157d2d216d, get {url=http://crm.local:3050/#/home}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29900, moz:profile: C:\Users\SUDHAR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9145fb54-0e75-4a2a-8fea-dc157d2d216d
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:369)
+at Activity.Activity5.Navbar(Activity5.java:62)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Navbar -->
       </class> <!-- Activity.Activity5 -->
       <class name="Activity.verifyPageTitle">
-        <test-method signature="verifyPage()[pri:1, instance:Activity.verifyPageTitle@10a9d961]" started-at="2026-06-12T16:11:51 IST" name="verifyPage" finished-at="2026-06-12T16:11:53 IST" duration-ms="2270" status="PASS">
+        <test-method signature="verifyPage()[pri:1, instance:Activity.verifyPageTitle@10a9d961]" started-at="2026-06-16T18:42:19 IST" name="verifyPage" finished-at="2026-06-16T18:42:24 IST" duration-ms="5366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPage -->

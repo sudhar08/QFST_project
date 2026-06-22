@@ -3,23 +3,46 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-<<<<<<< HEAD
+      <class name="Activity.Activity5">
+        <methods>
+          <include name="Navbar"/>
+        </methods>
+      </class> <!-- Activity.Activity5 -->
+      <class name="Activity.loginTest">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- Activity.loginTest -->
+      <class name="Activity.Activity6">
+        <methods>
+          <include name="Navbar"/>
+        </methods>
+      </class> <!-- Activity.Activity6 -->
+      <class name="Activity.Activity8">
+        <methods>
+          <include name="importFiles"/>
+          <include name="importAccountsTest"/>
+          <include name="displayOddRows"/>
+        </methods>
+      </class> <!-- Activity.Activity8 -->
+      <class name="Activity.Activity2">
+        <methods>
+          <include name="getCurrenturl"/>
+        </methods>
+      </class> <!-- Activity.Activity2 -->
       <class name="Activity.Activity9">
         <methods>
           <include name="checking_Leads"/>
           <include name="afterClass"/>
         </methods>
       </class> <!-- Activity.Activity9 -->
-=======
-      <class name="Activity.Activity8">
+      <class name="Activity.Activity_7">
         <methods>
-          <include name="importFiles"/>
-          <include name="importAccountsTest"/>
-          <include name="afterClass"/>
-          <include name="displayOddRows"/>
+          <include name="checkPhoneInLeads"/>
+          <include name="addLeads" invocation-numbers="0 1 2 3 4"/>
+          <include name="prerequireOfCheck"/>
         </methods>
-      </class> <!-- Activity.Activity8 -->
->>>>>>> 37ac86cf1bcf4b907af2a09330a56ad645711806
+      </class> <!-- Activity.Activity_7 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
