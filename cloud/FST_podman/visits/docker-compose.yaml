@@ -1,0 +1,25 @@
+services:
+  redis-server:
+    image: redis:latest
+    volumes:
+      - redis_data:/data
+    command:
+      - redis-server
+      - --save
+      - "1 1"
+      - --protected-mode
+      - "no"
+
+  node-app:
+    build:
+      context: .
+      dockerfile: Dockerfile   # Make sure the filename matches exactly
+    depends_on:
+      - redis-server
+    image: visits
+    ports:
+      - "80:8081"
+volumes:
+  redis_data:
+
+  
